@@ -1,0 +1,11 @@
+framework module RTMPFramework {
+  umbrella header "RTMPFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RTMPFramework.Swift {
+    header "RTMPFramework-Swift.h"
+    requires objc
+}
